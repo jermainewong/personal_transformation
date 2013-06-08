@@ -1,0 +1,26 @@
+/* sub css - coaching.html */
+
+/*---------------------
+Header
+----------------------*/
+#header{
+	background: url('../img/column1.jpg') center center;
+	opacity: 0.7;
+	height: 150px;
+}
+
+#content{
+	margin: 100px 0px;
+}
+
+#punchline{
+	background-color: rgba(240,240,224,0.5);
+	height: 100px;
+}
+
+#header h1{
+	font-family: 'PT Sans', sans-serif;
+	text-shadow: 1px 1px 3px #999;
+	margin-top: 50px;
+	font-size: 3.2em;
+}

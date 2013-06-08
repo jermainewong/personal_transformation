@@ -1,0 +1,219 @@
+/* main css */
+
+/*---------------------
+General layout & styles
+----------------------*/
+
+body{
+	background: url('../img/bkg2.png');
+}
+
+/*---------------------
+Nav Bar
+----------------------*/
+li{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	list-style: none;
+	float: left;
+	margin-right: 25px;
+	text-align: center;
+}
+
+li a{
+	color: #333;
+}
+
+
+#header{
+	height: 80px;
+	padding: 10px 0px;
+}
+
+.word-break{
+	width: 100px;
+}
+
+
+/*---------------------
+Banner
+----------------------*/
+#banner{
+	background: url(../img/banner2.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 350px;
+}
+
+#banner h1{
+	text-align: center;
+	font-size: 3em;
+	color: #fff;
+	line-height: 1.5em;
+	padding-top: 80px;
+	text-shadow: -2px -2px 3px rgba(0,0,0,0.64);
+}
+
+#banner p{
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+/*---------------------
+Columns
+----------------------*/
+#content .span4{
+	width: 298px;
+	height: 500px;
+	border: 1px solid rgba(153,153,153,0.35);
+	text-align: center;
+	background-color: #fff;
+}
+
+.columnpic{
+	width: 100%;
+	height: 200px;
+}
+
+.column_info div:nth-child(1){
+	height: 100px;
+	padding-top: 10px;
+}
+
+.column_info div:nth-child(2){
+	height: 50px;
+	padding: 0px 10px;
+}
+
+.column_info div:nth-child(3){
+	height: 50px;
+}
+
+.column_info div:nth-child(4){
+	height: 100px;
+	padding-top: 20px;
+}
+
+/*---------------------
+Buttons
+----------------------*/
+.bttn{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 10px auto;
+	color: #fff;
+	border: none;
+	background-color: #ff6300;
+}
+
+/*---------------------
+Typography
+----------------------*/
+
+.intro{
+	font-size: 1.2em;
+	line-height: 1.4em;
+	text-align: center;
+	color: #666;
+	margin: 120px 10px;
+}
+
+
+p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1em;
+}
+
+span .italic{
+	font-style: italic;
+	font-size: 14px;
+	color: #999;
+
+span{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #ff6300;
+	line-height: 1.5em;
+}
+
+.intro,h3,h2,h4{
+	font-family: 'Donegal One', serif;
+}
+
+.span4 h3{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	color: #05058d;
+}
+
+a{
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+
+
+/*---------------------
+Bio Section
+----------------------*/
+#profilepic{
+	width: 300px;
+}
+
+/*---------------------
+Testimonials Section
+----------------------*/
+#slider{
+	background: url('../img/texture5.png');
+	margin-top: 80px;
+	padding: 20px 0px;
+	border-bottom: solid 4px #ff6300;
+}
+
+/*---------------------
+Footer
+----------------------*/
+#footer{
+	background: url('../img/debut_brown.png');
+	padding: 60px 0px;
+}
+
+#footer p{
+	color: #fff;
+}
+
+
+#footer h4{
+	color: #999;
+	margin-bottom: 20px;
+}
+
+#bottom_footer{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#bottom_footer p{
+	font-size: 0.9em;
+}
+
+#footer h4{
+	font-size: 1.4em;
+}
+
+#bottom_footer a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.9em;
+	color: #fff;
+	font-weight: 400;
+}
+
+.social_icons{
+	margin-right: 5px;
+}

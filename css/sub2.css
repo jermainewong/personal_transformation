@@ -1,0 +1,19 @@
+/* sub2 css - for testimonials, about mark, blog and contact page */
+
+/*---------------------
+Header
+----------------------*/
+#header{
+	background: none;
+}
+
+
+
+
+.testpic{
+	width: 120px;
+}
+
+.testimonial{
+	line-height: 1.8em;
+}

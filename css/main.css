@@ -35,7 +35,7 @@ NavBar
 	color: #fff;
 	display: block;
 	height: 30px;
-	padding: 20px 20px;
+	padding: 20px 16px;
 }
 
 .navbar a:hover{
@@ -56,6 +56,11 @@ NavBar
 	background: -moz-linear-gradient(top, #000000, #323232);
 	background: -ms-linear-gradient(top, #000000, #323232);
 	background: -o-linear-gradient(top, #000000, #323232);
+}
+
+#logo{
+	width: 80px;
+	height: 75px;
 }
 
 /*---------------------
@@ -102,6 +107,7 @@ Banner
 	height: 10px;
 }
 
+
 /*---------------------
 Hexagon Panel
 ----------------------*/
@@ -134,7 +140,7 @@ Benefits Section
 }
 
 .man{
-	height: 90px;
+	height: 120px;
 	display: block;
 	margin: 0 auto;
 }
@@ -170,6 +176,7 @@ Typography
 p{
 	font-family: 'Helvetical', sans-serif;
 	font-size: 1.1em;
+	line-height: 1.4em;
 }
 
 
@@ -242,6 +249,10 @@ Footer
 	font-weight: 400;
 }
 
+#footer h5{
+	color: #fff;
+}
+
 #bottom_footer{
 	text-align: center;
 	margin-top: 100px;
@@ -262,7 +273,31 @@ Footer
 	font-weight: 400;
 }
 
-.social_icons{
-	margin-right: 5px;
+i{
+	margin-right: 10px;
 }
+
+#footer .p-inline{
+	display: inline;
+	font-size: 0.9em;
+	font-variant: 600;
+	margin-right: 10px;
+}
+
+.connect{
+	margin-bottom: 15px;
+}
+
+.social-icons{
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
 

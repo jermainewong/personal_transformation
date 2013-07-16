@@ -4,5 +4,105 @@
 Header
 ----------------------*/
 #header{
-	background: none;
+	background: url('../img/mountains.jpg') center center;
+	border-bottom: solid 20px #f3f0e5;
+	height: 140px;
+	margin-bottom: 200px;
 }
+
+#header-child{
+	background: url('../img/curvy4.png') repeat;
+	z-index: 1;
+	height: 160px;
+}
+
+.bighex{
+	width: 170px;
+	padding: 50px 0px;
+}
+
+#header-child h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 3.5em;
+	color: #fff;
+	z-index: 2;
+	margin: -165px 0px 0px 35px;
+}
+
+/*---------------------
+Date Area
+----------------------*/
+.date{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	color: #666;
+	display: block;
+	padding: 8px;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #999;
+	width: 100px;
+}
+
+.widget{
+	margin: 15px 0px;
+}
+
+/*---------------------
+Post Area
+----------------------*/
+.post-area h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-top: 0px;
+	color: #692b55;
+}
+
+.span9 .row{
+	margin-bottom: 100px;
+}
+
+
+/*---------------------
+Aside
+----------------------*/
+#widget-area h4{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1em;
+}
+
+#widget-area li{
+	list-style: none;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 1em;
+	margin: 5px 0px;
+}
+
+#widget-area a{
+	font-weight: 400;
+}
+
+#widget-area ul{
+	margin-left: 0px;
+}
+
+aside{
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

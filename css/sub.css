@@ -21,10 +21,35 @@ Header
 }
 
 #header h1{
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-shadow: 1px 1px 3px #999;
 	margin-top: 50px;
 	font-size: 3.2em;
+}
+
+#content h3{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #82376a;
+	padding-top: 30px;
+}
+
+#content h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #82376a; 
+}
+
+#content .text-emp p{
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5em;
+	color: #0076dc;
+	margin-top: 20px;
+	padding: 20px 10px;
+}
+
+#content .row{
+	margin-top: 30px;	
 }
 
 .hexagon{
@@ -37,4 +62,16 @@ Header
 	font-size: 1.1em;
 	font-family: 'PT Sans', sans-serif;
 	color: rgba(102,102,102,0.8);
+}
+
+.bttn{
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.img-energy{
+	display: block;
+	width: 80%;
+	margin: 50px auto;
+	
 }

@@ -35,7 +35,7 @@ NavBar
 	color: #fff;
 	display: block;
 	height: 30px;
-	padding: 20px 16px;
+	padding: 20px 15px;
 }
 
 .navbar a:hover{
@@ -76,21 +76,21 @@ Banner
 }
 
 .welcome_blurb{
-	margin-top: 110px;
+	margin-top: 90px;
 }
 
 #header h1{
-	font-family: 'Spinnaker', sans-serif;
-	font-size: 3.4em;
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.8em;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 300;
 	color: #fff;
 	line-height: 1.2em;
 	text-shadow: 2px 2px 3px #666;
 }
 
 #header p{
-	font-family: 'Spinmaker', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #fff;
 	text-align: center;
 	font-size: 1.5em;
@@ -146,7 +146,9 @@ Benefits Section
 }
 
 #benefits h5{
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.3em;
+	font-weight: 700;
 	text-align: center;
 	margin-top: 30px;
 }
@@ -161,8 +163,8 @@ Buttons
 ----------------------*/
 .bttn{
 	font-family: 'PT Sans', sans-serif;
-	font-size: 1em;
-	padding: 5px 10px;
+	font-size: 1.1em;
+	padding: 8px 12px;
 	margin: 10px auto;
 	color: #fff;
 	border: none;
@@ -174,7 +176,7 @@ Typography
 ----------------------*/
 
 p{
-	font-family: 'Helvetical', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 1.1em;
 	line-height: 1.4em;
 }
@@ -219,12 +221,23 @@ Bio Section
 .bio{
 	margin: 130px 0px;
 }
+
+.bio h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
 /*---------------------
 Testimonials Section
 ----------------------*/
 #slider{
 	margin: 50px 0px;
 }
+
+#slider h3{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
 
 /*---------------------
 Footer
@@ -244,6 +257,7 @@ Footer
 
 
 #footer h4{
+	font-family: 'Roboto Slab', serif;
 	color: #999;
 	margin-bottom: 20px;
 	font-weight: 400;

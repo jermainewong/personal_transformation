@@ -1,36 +1,104 @@
 /* sub css - contact.html */
 
+#content .container{
+	background-color: rgba(240,240,224,0.3);
+	padding: 30px;
+	box-shadow: rgba(153,153,153,0.5) -2px 2px 5px;
+	margin: 80px auto;
+}
+
+
 /*---------------------
-Header
+Contact Form
 ----------------------*/
-#header{
-	background: url('../img/mountains.jpg') center center;
-	border-bottom: solid 20px #f3f0e5;
-	height: 140px;
-	margin-bottom: 200px;
+label{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	
 }
 
-#header-child{
-	background: url('../img/curvy4.png') repeat;
-	z-index: 1;
-	height: 160px;
+.span4 input{
+	width: 280px;
+	height: 30px;
 }
 
-.bighex{
-	width: 170px;
-	padding: 50px 0px;
+textarea{
+	width: 600px;
+	height: 250px;
 }
 
-#header-child h2{
+form{
+	margin-top: 30px;
+}
+
+form .bttn{
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-right: 10px;
+	float: right;
+	padding: 8px 25px;
+}
+
+form .row{
+	margin-bottom: 10px;
+}
+
+.span8 h1{
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
-	font-size: 3em;
-	color: #fff;
-	z-index: 2;
-	margin: -165px 0px 0px 10px;
+	font-size: 3.2em;
+	color: #05058d;
+	margin-bottom: 30px;
+}
+
+.span8 p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+	color: #333;
+	font-weight: 300;
+}
+
+.span8 span{
+	font-weight: 400;
+	color: #05058d;
 }
 
 /*---------------------
-Content
+Aside
 ----------------------*/
+#content aside{
+	background: url('../img/curvy4.png') repeat; 
+	z-index: 1;
+	background-color: white;
+	height: 550px;
+	padding: 20px;
+}
+
+aside h5{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 3px;
+	color: #ff6300;
+	text-transform: uppercase;
+}
+
+aside p{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 

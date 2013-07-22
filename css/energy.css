@@ -1,0 +1,14 @@
+/* sub css - energy.html */
+
+/*---------------------
+Header
+----------------------*/
+#header{
+	background: url('../img/header-img2.png') center center;
+}
+
+#punchline{
+	border-top: solid 10px #9c3e38;
+}
+
+

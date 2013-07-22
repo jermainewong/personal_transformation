@@ -4,9 +4,15 @@
 Header
 ----------------------*/
 #header{
-	background: url('../img/bkg_coaching.jpg') center center;
+	background: url('../img/header-img1.png') center center;
 	background-size: 100%;
 	opacity: 1;
+	height: 160px;
+}
+
+#header-child{
+	background: url('../img/curvy4.png') repeat;
+	z-index: 1;
 	height: 160px;
 }
 
@@ -73,5 +79,16 @@ Header
 	display: block;
 	width: 80%;
 	margin: 50px auto;
-	
+}
+
+.coaching-img{
+	width: inherit;
+	margin: 20px;
+	padding: 20px;
+	background: #fff;
+	box-shadow: rgba(153,153,153,0.55) 2px 2px 5px;
+}
+
+img[src$="coaching-img3.jpg"]{
+	width: 350px;
 }

@@ -59,8 +59,7 @@ NavBar
 }
 
 #logo{
-	width: 80px;
-	height: 75px;
+	width: 65px;
 }
 
 /*---------------------
@@ -140,7 +139,7 @@ Benefits Section
 }
 
 .man{
-	height: 120px;
+	height: 140px;
 	display: block;
 	margin: 0 auto;
 }

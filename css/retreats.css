@@ -17,7 +17,7 @@ Header
 }
 
 #content{
-	margin: 100px 0px;
+	margin: 20px 0px;
 }
 
 #punchline{
@@ -37,7 +37,6 @@ Header
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	color: #82376a;
-	padding-top: 30px;
 }
 
 #content h2{
